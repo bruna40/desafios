@@ -6,7 +6,7 @@ switch (true) {
     case xp < 1000:
         console.log(`O Herói de nome ${name} está no nível de Ferro`);
         break;
-    case xp >= 1000 && xp <= 2000:
+    case xp > 1000 && xp <= 2000:
         console.log(`O Herói de nome ${name} está no nível de Bronze`);
         break;
     case xp > 2000 && xp <= 5000:
